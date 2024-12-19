@@ -90,7 +90,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.29822, 0.330779, -4.05711)
 mesh = SubResource("BoxMesh_nshok")
 
 [node name="player" parent="." groups=["Player"] instance=ExtResource("2_52lpq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.388978, 0.923692, 2.42022)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.388978, 0.923692, 3.61592)
 
 [node name="InteracationManager" parent="." instance=ExtResource("4_i16dk")]
 

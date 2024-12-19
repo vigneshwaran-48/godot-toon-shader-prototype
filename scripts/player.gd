@@ -20,8 +20,7 @@ var is_falling = false
 var is_interacting: bool = false
 
 func _ready() -> void:
-	# Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
-	pass
+	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 	
 func _input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion or event is InputEventScreenDrag:

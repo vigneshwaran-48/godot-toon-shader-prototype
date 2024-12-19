@@ -5,7 +5,7 @@ uniform sampler2D screen_texture: source_color, hint_screen_texture, filter_near
 uniform sampler2D normal_texture: source_color, filter_nearest;
 uniform sampler2D depth_texture : source_color, hint_depth_texture, filter_nearest;
 
-uniform float depth_treshold = 0.05;
+uniform float depth_treshold = 0.9;
 
 vec3 get_original(vec2 screen_uv) {
 	return texture(screen_texture, screen_uv).rgb;
