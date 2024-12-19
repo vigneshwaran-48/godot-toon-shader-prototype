@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://bjb2ehqfs5l43"]
+
+[ext_resource type="PackedScene" uid="uid://du4u0huenbr0i" path="res://models/npc.gltf" id="1_mge16"]
+[ext_resource type="Script" path="res://adam.gd" id="1_n8uwh"]
+[ext_resource type="PackedScene" uid="uid://dbud6wvw5504i" path="res://scenes/interactable.tscn" id="2_m05qv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bcfdw"]
+size = Vector3(2.22098, 1, 2.45508)
+
+[node name="Adam" type="Node3D"]
+script = ExtResource("1_n8uwh")
+
+[node name="visuals" type="Node3D" parent="."]
+
+[node name="AuxScene" parent="visuals" instance=ExtResource("1_mge16")]
+transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0)
+
+[node name="Interactable" parent="." instance=ExtResource("2_m05qv")]
+unique_name_in_owner = true
+collision_layer = 0
+collision_mask = 2
+display_text = "Adam"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Interactable"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.12471, 0, 0.139648)
+shape = SubResource("BoxShape3D_bcfdw")

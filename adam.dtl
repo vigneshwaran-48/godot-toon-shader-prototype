@@ -1,0 +1,23 @@
+adam: Hello
+- Hi
+	adam: My name is Adam.
+	adam: You seem like new to this town, Do you need any help?
+	- Yes, Can I know where is the police station of this town?
+		adam: Go to the exit of this station. And pickup any taxi.
+		adam: Ask them to drop you on police station
+		adam: Can I know why are you going to police station?
+		adam: I mean ah no one would go to a police station after arriving to a new town.
+		- None of your business!
+			adam: Thats! Rude. I shouldn't have helped you!
+		- I am the new Detective
+			adam: Oh ah great!!! You would have a lot of work in this town
+		- ...
+			adam: ...
+	- No thanks
+		adam: Ok, Have a great day!!!
+	- ...
+		adam: ...
+- Do you know this place name?
+	This is Solace Bay!!!
+- ...
+	Okaaay!

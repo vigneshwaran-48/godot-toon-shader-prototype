@@ -1,0 +1,5 @@
+label interact
+This building is huge!!! Is it possible to go inside this...
+return
+label interacted_already
+I need to find a way to go inside this building
